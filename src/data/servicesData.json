@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "SquareGanttChart",
+        "title": "Web Design",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+    },
+    {
+        "icon": "Blocks",
+        "title": "Web Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+    },
+    {
+        "icon": "Gem",
+        "title": "App Development",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+    }
+]

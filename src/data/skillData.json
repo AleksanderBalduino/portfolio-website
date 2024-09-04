@@ -1,0 +1,105 @@
+[
+    {
+        "title": "languages",
+        "data": [
+            {
+                "name": "HTML5",
+                "img": "html5.svg"
+            },
+            {
+                "name": "CSS3",
+                "img": "css3.svg"
+            },
+            {
+                "name": "Javascript",
+                "img": "javascript.svg"
+            },
+            {
+                "name": "jQuery",
+                "img": "jquery.svg"
+            },
+            {
+                "name": "Bootstrap",
+                "img": "bootstrap.svg"
+            },
+            {
+                "name": "Typescript",
+                "img": "typescript.svg"
+            },
+            {
+                "name": "React JS",
+                "img": "react.svg"
+            },
+            {
+                "name": "Tailwind",
+                "img": "tailwind.svg"
+            },
+            {
+                "name": "Flutter",
+                "img": "flutter.svg"
+            },
+            {
+                "name": "PHP",
+                "img": "php.svg"
+            },
+            {
+                "name": "MySQL",
+                "img": "mysql.svg"
+            }
+        ]
+    },
+    {
+        "title": "technologies",
+        "data": [
+            {
+                "name": "Linux",
+                "img": "linux.svg"
+            },
+            {
+                "name": "Zendesk",
+                "img": "zendesk.svg"
+            },
+            {
+                "name": "Trello",
+                "img": "trello.svg"
+            },
+            {
+                "name": "Adobe XD",
+                "img": "adobexd.svg"
+            },
+            {
+                "name": "Figma",
+                "img": "figma.svg"
+            },
+            {
+                "name": "Git",
+                "img": "git.svg"
+            }
+        ]
+    },
+    {
+        "title": "skills",
+        "data": [
+            {
+                "name": "Web Dev",
+                "img": "web.svg"
+            },
+            {
+                "name": "Web Design",
+                "img": "design.svg"
+            },
+            {
+                "name": "Design UX",
+                "img": "ux.svg"
+            },
+            {
+                "name": "Front End",
+                "img": "front.svg"
+            },
+            {
+                "name": "Back End",
+                "img": "back.svg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "education",
+        "data": [
+            {
+                "university": "Universidade de Ribeirão Preto",
+                "qualification": "Bacharel em Engenharia de Computação",
+                "years": "2018 - 2022"
+            },
+            {
+                "university": "Sirius",
+                "qualification": "MBA Full-Stack",
+                "years": "2024 - Presente"
+            }
+        ]
+    },
+    {
+        "title": "experience",
+        "data": [
+            {
+                "company": "Universidade de Ribeirão Preto",
+                "role": "Lorem Ipsum",
+                "years": "2019 - 2021"
+            },
+            {
+                "company": "Digisystem",
+                "role": "Analista de Suporte Computacional",
+                "years": "2021"
+            },
+            {
+                "company": "ARO Eleven Marketing Digital",
+                "role": "Lorem Ipsum",
+                "years": "2021 - 2022"
+            }
+        ]
+    }
+]

@@ -1,0 +1,70 @@
+.boxImgProfile {
+    animation: animate 2s infinite ease-in-out alternate;
+}
+
+.imgProfile {
+    animation: profile_img_animate 10s linear infinite;
+}
+
+.bgImgProfile {
+    border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%;
+    transform: rotate(0deg);
+    will-change: border-radius, transform;
+    animation: blobRadius 10s linear infinite, spin 10s linear infinite;
+}
+
+@keyframes animate {
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes profile_img_animate {
+    0%, 100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+
+    33% {
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+
+@keyframes blobRadius {
+    0%, 100% {
+      border-radius: 43% 77% 80% 40% / 40% 40% 80% 80%;
+    }
+    20% {
+      border-radius: 47% 73% 61% 59% / 47% 75% 45% 73%;
+    }
+    40% {
+      border-radius: 46% 74% 74% 46% / 74% 58% 62% 46%;
+    }
+    60% {
+      border-radius: 47% 73% 61% 59% / 40% 40% 80% 80%;
+    }
+    80% {
+      border-radius: 50% 70% 52% 68% / 51% 61% 59% 69%;
+    }
+}
+
+@keyframes blob {
+    0%, 100% {
+      border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%; 
+    }
+    50% {
+      border-radius: 72% 28% 50% 50% / 55% 26% 74% 45%;  
+    }
+}
+  
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);  
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+}

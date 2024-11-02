@@ -1,34 +1,42 @@
 [
     {
-        "image": "1.png",
-        "category": "React JS",
-        "name": "Lorem Website",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quis.",
-        "link": "/",
-        "github": "/"
+        "image": "portal_noticia_mba_fullstack.png",
+        "category": "MBA Full-stack",
+        "title": "Portal de notícias",
+        "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a homepage de um portal de notícias sobre tecnologia para ser visualizado em um desktop.",
+        "link": "https://aleksanderbalduino.github.io/projeto-portal-de-noticias-mba-fullstack/",
+        "github": "https://github.com/AleksanderBalduino/projeto-portal-de-noticias-mba-fullstack"
     },
     {
-        "image": "2.png",
-        "category": "React JS",
-        "name": "Ipsum Website",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quis.",
-        "link": "/",
-        "github": "/"
+        "image": "formulario_matricula_mba_fullstack.png",
+        "category": "MBA Full-stack",
+        "title": "Formulário de matrícula",
+        "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido um formulário desktop para uma escola de educação infantil.",
+        "link": "https://aleksanderbalduino.github.io/projeto-formulario-de-matricula-mba-fullstack/",
+        "github": "https://github.com/AleksanderBalduino/projeto-formulario-de-matricula-mba-fullstack"
     },
     {
-        "image": "3.png",
-        "category": "React JS",
-        "name": "Dolor Website",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quis.",
-        "link": "/",
-        "github": "/"
+        "image": "zingen_karaoke_mba_fullstack.png",
+        "category": "MBA Full-stack",
+        "title": "Zingen Karaokê",
+        "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen.",
+        "link": "https://aleksanderbalduino.github.io/projeto-zingen-karaoke-mba-fullstack/",
+        "github": "https://github.com/AleksanderBalduino/projeto-zingen-karaoke-mba-fullstack"
     },
     {
-        "image": "4.png",
-        "category": "React JS",
-        "name": "Sit Website",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Cumque, quis.",
-        "link": "/",
-        "github": "/"
+        "image": "snitap_patins_mba_fullstack.png",
+        "category": "MBA Full-stack",
+        "title": "Snitap Patins",
+        "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a Landing Page responsiva de loja de patins com muitas animações e transições.",
+        "link": "https://aleksanderbalduino.github.io/projeto-snitap-patins-mba-fullstack/",
+        "github": "https://github.com/AleksanderBalduino/projeto-snitap-patins-mba-fullstack"
+    },
+    {
+        "image": "convert_mba_fullstack.png",
+        "category": "MBA Full-stack",
+        "title": "Conversor de moedas",
+        "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido uma aplicação Web de conversão de moedas para real.",
+        "link": "https://aleksanderbalduino.github.io/projeto-convert-mba-fullstack/",
+        "github": "https://github.com/AleksanderBalduino/projeto-convert-mba-fullstack"
     }
 ]

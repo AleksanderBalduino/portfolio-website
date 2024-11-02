@@ -21,12 +21,12 @@ export function Tabs({ tabsStyle, children }: TabsProps) {
     };
 
     return (
-        <li className="mx-auto list-none" key="tab">
-            <div className={`grid gap-3 xl:gap-1 items-center justify-center rounded-full p-1 w-full xl:bg-white xl:border-[1px] xl:border-gray-300 ${tabsStyle}`}>
+        <li className="mx-auto list-none grid gap-8" key="tab">
+            <div className={`grid gap-3 items-center justify-center rounded-full p-1 w-full md:gap-1 md:bg-white md:shadow-[0_0_25px_-10px_rgba(0,0,0,0.3)] ${tabsStyle}`}> {/*xl:border-[1px] xl:border-gray-300*/}
                 {children.map(child => (
                     <button
                         key={child.props.label}
-                        className={`${activeTab === child.props.label ? 'bg-red-500 text-white shadow-sm' : 'hover:bg-red-100 hover:text-white'} w-[162px] xl:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-full p-3 text-base font-medium transition-all focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 h-[50px]`}
+                        className={`${activeTab === child.props.label ? 'bg-red-500 text-white shadow-sm' : 'hover:bg-red-100 hover:text-white'} md:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-full p-3 md:p-4 px-16 md:px-0 lg:p-4 text-sm mdtext-base font-medium transition-all focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50`}
                         onClick={e => handleClick(e, child.props.label, child.props.onClick)}
                     >
                         {child.props.label}
@@ -34,10 +34,10 @@ export function Tabs({ tabsStyle, children }: TabsProps) {
                 ))}
             </div>
 
-            <div className="py-4">
+            <div>
                 {children.map(child => {
                 if (child.props.label === activeTab) {
-                    return <div key={child.props.label} className="mt-4">{child.props.children}</div>;
+                    return <div key={child.props.label}>{child.props.children}</div>;
                 }
                     return null;
                 })}

@@ -3,13 +3,13 @@
         "title": "education",
         "data": [
             {
-                "university": "Universidade de Ribeirão Preto",
-                "qualification": "Bacharel em Engenharia de Computação",
+                "title": "Universidade de Ribeirão Preto - UNAERP",
+                "description": "Bacharelado em Engenharia de Computação",
                 "years": "2018 - 2022"
             },
             {
-                "university": "Sirius",
-                "qualification": "MBA Full-Stack",
+                "title": "Sirius",
+                "description": "MBA Full-Stack",
                 "years": "2024 - Presente"
             }
         ]
@@ -18,19 +18,24 @@
         "title": "experience",
         "data": [
             {
-                "company": "Universidade de Ribeirão Preto",
-                "role": "Lorem Ipsum",
+                "title": "Universidade de Ribeirão Preto - UNAERP",
+                "description": "Suporte de TI",
                 "years": "2019 - 2021"
             },
             {
-                "company": "Digisystem",
-                "role": "Analista de Suporte Computacional",
+                "title": "Digisystem",
+                "description": "Analista de Suporte JR.",
                 "years": "2021"
             },
             {
-                "company": "ARO Eleven Marketing Digital",
-                "role": "Lorem Ipsum",
+                "title": "ARO Eleven Marketing Digital",
+                "description": "Desenvolvedor Full stack",
                 "years": "2021 - 2022"
+            },
+            {
+                "title": "PwC Brasil",
+                "description": "Associate - Risk Assurance",
+                "years": "2024 - Presente"
             }
         ]
     }

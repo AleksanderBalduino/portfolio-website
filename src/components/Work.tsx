@@ -108,10 +108,10 @@ export function Work() {
     };
 
     return (
-        <section className='py-4 lg:py-12'>
-            <div className="container p-8 mx-auto">
+        <section className='p-8 md:p-16'>
+            <div className="container mx-auto">
                 <div>
-                    <h2 className='mb-12 xl:mb-16 text-3xl text-center mx-auto font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px]'>Latest Projects</h2>
+                    <h2 className='mb-8 md:mb-12 xl:mb-16 text-xl md:text-2xl xl:text-3xl text-center mx-auto font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px]'>Últimos Projetos</h2>
 
                     <div className='mb-14'>
                         <Slider
@@ -121,21 +121,28 @@ export function Work() {
                             {projectsData.map((data, index) => { /* slice(0, n) Começa no 1° elemento e apresenta até o n° elemento */
                                 return (
                                     <div className='w-full px-4' key={index}>
-                                        <div className='rounded-xl border shadow group overflow-hidden relative'>
-                                            <div className='flex flex-col space-y-1.5 p-6 relative w-full h-[300px] items-center justify-center bg-red-100/25'>
-                                                <img className='absolute shadow-2xl' src={`../src/assets/work/${data.image}`} alt="" />
+                                        <div className='rounded-xl border border-gray-200 shadow group overflow-hidden'>
+                                            <div className="group flex flex-col space-y-1.5 p-6 relative w-full h-80 items-center justify-center overflow-hidden">
+                                                <div 
+                                                    className="absolute inset-0 bg-no-repeat bg-cover transition-transform duration-300 group-hover:scale-110"
+                                                    style={{ backgroundImage: `url(src/assets/work/${data.image})` }}
+                                                ></div>
 
-                                                <div className='flex gap-x-4'>
-                                                    <Link to={data.link} target='_blank' className='bg-gray-800 w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'><Link2 className='text-white' /></Link>
+                                                <div className="flex gap-x-4 relative z-10">
+                                                    <Link to={data.link} target='_blank' className='bg-gray-800 w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 hover:bg-gray-500 transition-all duration-300'>
+                                                        <Link2 className='text-white' />
+                                                    </Link>
 
-                                                    <Link to={data.github} target='_blank' className='bg-gray-800 w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200'><Github className='text-white' /></Link>
+                                                    <Link to={data.github} target='_blank' className='bg-gray-800 w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 hover:bg-gray-500 transition-all duration-300'>
+                                                        <Github className='text-white' />
+                                                    </Link>
                                                 </div>
                                             </div>
 
-                                            <div className='h-full px-8 py-6'>
+                                            <div className='px-8 py-6'>
                                                 <div className='inline-flex items-center rounded-full bg-red-500 px-2 py-1 text-xs text-white uppercase font-semibold mb-2 absolute top-4 left-4'>{data.category}</div>
-                                                <h4 className='text-2xl font-bold mb-1'>{data.name}</h4>
-                                                <p className='text-base text-gray-600'>{data.description}</p>
+                                                <h4 className='text-base md:text-lg xl:text-xl font-bold mb-2'>{data.title}</h4>
+                                                <p className='text-sm text-gray-700 text-justify line-clamp-3'>{data.description}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -155,8 +162,8 @@ export function Work() {
                     </div>
 
                     <div className='flex justify-center'>
-                        <Link to='/projetos' className='py-4 px-6 inline-block bg-black hover:bg-white text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
-                            All my projects
+                        <Link to='/projetos' className='py-3 md:py-4 px-12 inline-block bg-black hover:bg-white text-base text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
+                            Todos os meus projetos
                         </Link>
                     </div>
                 </div>

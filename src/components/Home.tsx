@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 /* Icons (Lucide React) */
-import { ChevronDown, Send, Download } from 'lucide-react';
+import { /*ChevronDown*/ Send, Download } from 'lucide-react';
 
 /* Typed */
 import Typed from 'typed.js';
@@ -29,7 +29,7 @@ export function Home() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-          strings: ['Engenheiro da Computação', 'Desenvolvedor Full Stack'],
+          strings: ['Engenheiro da Computação', 'Desenvolvedor Full Stack', 'Pós-graduando em Desenvolvimento Full Stack', ],
           typeSpeed: 35,
           backSpeed: 50,
           loop: true
@@ -41,40 +41,43 @@ export function Home() {
     }, []);
 
     return (
-        <section className='py-4 xl:py-24 xl:pt-12 bg-home bg-no-repeat bg-bottom bg-cover'>
-            <div className="container p-8 mx-auto">
-                <div className='flex justify-between gap-x-8'>
-                    <div className='flex max-w-[700px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
+        <section className='p-8 md:p-16 bg-home bg-no-repeat bg-bottom bg-cover'>
+            <div className="container mx-auto">
+                <div className='xl:grid xl:grid-cols-[2fr_1fr] xl:gap-24'>
+                    <div className='text-center justify-center mx-auto flex flex-col xl:text-left'>
                         <Reveal delay={0.25}>
-                            <h1 className='text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold mb-4'>
-                                Olá, me chamo Aleksander Balduino
-                            </h1>
+                            <div>
+                                <h1 className='text-2xl sm:text-3xl md:text-5xl xl:text-6xl tracking-wide font-bold'>
+                                    Olá, me chamo
+                                </h1>
+                                <h1 className='text-2xl sm:text-3xl md:text-5xl xl:text-6xl tracking-wide font-bold mb-6'>
+                                    Aleksander Balduino
+                                </h1>
+                            </div>
                         </Reveal>
 
                         <Reveal delay={0.5}>
-                            <div className='mb-4 text-sm uppercase font-semibold tracking-[4px]'>
+                            <div className='mb-6 text-sm md:text-base lg:text-lg xl:text-lg uppercase font-semibold tracking-[2px] md:tracking-[3px]'>
                                 Sou um <span className='text-red-500' ref={el}></span>
                             </div>
                         </Reveal>
 
                         <Reveal delay={0.75}>
-                            <p className='text-lg mb-8 font-light max-w-[600px] mx-auto xl:mx-0 text-center xl:text-justify'>
-                                Brief description with insights into myself, my vocational journey, and what i engage in professionally. Lorem Ipsum dolor sit amet.
+                            <p className='mb-12 text-sm font-light text-justify md:text-base lg:text-lg md:mb-16'>
+                                Entusiasta de tecnologia e apaixonado por programação, acredito que o aprendizado é uma jornada sem fim, sempre há espaço para aprender mais. Para mim, o valor da vida está em explorar diversas áreas do saber, e em poder compartilhar essas novas descobertas e experiências com outras pessoas, levando o conhecimento comigo onde quer que eu vá.
                             </p>
                         </Reveal>
 
                         <Reveal delay={1}>
-                            <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
-                                <Link to='/contato' className='inline-flex items-center justify-center whitespace-nowrap bg-black hover:bg-white text-white hover:text-red-500 py-4 px-6 gap-x-2 rounded-full text-base font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
-                                    Contact me
-                                    <Send size={18} />
+                            <div className='flex flex-col gap-6 justify-center px-12 md:p-0 md:gap-8 md:flex-row xl:justify-normal'>
+                                <Link to='/contato' className='inline-flex items-center justify-center whitespace-nowrap py-3 md:py-4 px-8 gap-3 bg-black rounded-full hover:bg-white text-white hover:text-red-500 hover:shadow-[inset_0_0_1px_2px_#ef4444] transition duration-100'>
+                                    <span className='text-sm md:text-base font-medium'>Entre em contato</span>
+                                    <Send className='w-4 h-4' />
                                 </Link>
 
-                                <a href={resumeFile} download="Aleksander's_Resume">
-                                    <button className='inline-flex items-center justify-center whitespace-nowrap bg-white hover:bg-red-500 text-black hover:text-white py-4 px-6 gap-x-2 rounded-full text-base font-medium shadow-[inset_0_0_1px_2px_rgba(0,0,0,1)] hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
-                                        Download CV
-                                        <Download size={18} />
-                                    </button>
+                                <a href={resumeFile} download="Aleksander's_Resume" className='inline-flex items-center justify-center whitespace-nowrap py-3 md:py-4 px-8 gap-3 bg-white rounded-full hover:bg-red-500 hover:text-white shadow-[inset_0_0_0_2px_black] hover:shadow-[inset_0_0_0_2px_#ef4444] transition duration-100'>
+                                    <span className='text-sm md:text-base font-medium'>Download CV</span>
+                                    <Download className='w-4 h-4' />
                                 </a>
                             </div>
                         </Reveal>
@@ -89,11 +92,11 @@ export function Home() {
                     </Reveal>
                 </div>
 
-                <Reveal delay={2} translateY={false}>
+                {/* <Reveal delay={2} translateY={false}>
                     <div className='hidden md:flex absolute left-1/2 bottom-20 xl:bottom-8 animate-bounce'>
                         <a href="#aboutme"><ChevronDown size={30} className='hover:text-red-500 hover:cursor-pointer transition-all' /></a>
                     </div>
-                </Reveal>
+                </Reveal> */}
             </div>
         </section>
     );

@@ -1,17 +1,17 @@
 [
     {
-        "icon": "SquareGanttChart",
+        "icon": "Paintbrush",
         "title": "Web Design",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+        "description": "Crio designs modernos e intuitivos que atraem a atenção dos usuários. Meu objetivo é desenvolver interfaces que sejam agradáveis e fáceis de navegar, refletindo a identidade da sua marca."
     },
     {
-        "icon": "Blocks",
+        "icon": "Laptop",
         "title": "Web Development",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+        "description": "Desenvolvo sites responsivos usando as tecnologias mais recentes, sempre pensando na experiência do usuário. O propóstio é assegurar que cada site ofereça um desempenho excelente e funcional para todos os dispositivos e usuários."
     },
     {
-        "icon": "Gem",
+        "icon": "TabletSmartphone",
         "title": "App Development",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, repellat."
+        "description": "Estou empenhado em criar aplicativos móveis que não apenas funcionam bem, mas que se destacam pela usabilidade e design, gerando uma experiência divertida e envolvente para os usuários."
     }
 ]

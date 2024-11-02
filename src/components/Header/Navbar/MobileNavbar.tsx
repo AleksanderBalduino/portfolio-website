@@ -19,7 +19,7 @@ export function MobileNavbar({ toggle, showMenubar } : MobileNavbarProps) {
             </ul>
 
             <div className='absolute right-0 top-0 pt-4 pr-4'>
-                <X size={32} className='cursor-pointer hover:text-red-500 transition-all' onClick={showMenubar} />
+                <X className='size-6 md:size-8 cursor-pointer hover:text-red-500 transition-all' onClick={showMenubar} />
             </div>
         </nav>
     );

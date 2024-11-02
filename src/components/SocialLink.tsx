@@ -11,7 +11,7 @@ export function SocialLink({link, icon}: SocialLinkProps) {
 
     return (
         <Link to={link} className="hover:text-red-500 transition-all" target="_blank">
-            <IconComponent className='size-5' />
+            <IconComponent className='size-5 md:size-6 xl:size-7' />
         </Link>
     );
 }

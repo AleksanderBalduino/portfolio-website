@@ -6,12 +6,12 @@
     animation: profile_img_animate 10s linear infinite;
 }
 
-.bgImgProfile {
+/* .bgImgProfile {
     border-radius: 28% 72% 22% 78% / 39% 23% 77% 61%;
     transform: rotate(0deg);
     will-change: border-radius, transform;
     animation: blobRadius 10s linear infinite, spin 10s linear infinite;
-}
+} */
 
 @keyframes animate {
     to {
@@ -33,7 +33,7 @@
     }
 }
 
-@keyframes blobRadius {
+/* @keyframes blobRadius {
     0%, 100% {
       border-radius: 43% 77% 80% 40% / 40% 40% 80% 80%;
     }
@@ -49,7 +49,7 @@
     80% {
       border-radius: 50% 70% 52% 68% / 51% 61% 59% 69%;
     }
-}
+} */
 
 @keyframes blob {
     0%, 100% {

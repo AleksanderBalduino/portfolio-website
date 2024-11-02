@@ -78,21 +78,21 @@ export function FormContact() {
     return <form className='flex flex-col gap-y-8' onSubmit={handleSubmit(onSubmit)}>
         <div className='relative'>
             <label htmlFor="name" className={`absolute -top-4 left-5 text-sm text-gray-700 bg-white p-1 z-10 ${errors.name && 'text-red-500'}`}>Nome <span className='text-red-500 font-bold'>*</span></label>
-            <input {...register("name")} type='text' id='name' placeholder='Digite o seu Nome completo' className={`flex w-full h-16 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.name && 'border-red-500 placeholder:text-red-500'}`} />
+            <input {...register("name")} type='text' id='name' placeholder='Digite o seu Nome completo.' className={`flex w-full h-16 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.name && 'border-red-500 placeholder:text-red-500'}`} />
 
             {errors.name && <div className='text-center bg-red-100 text-red-500 px-4 py-2 mt-3 rounded'>{errors.name.message}</div>}
         </div>
 
         <div className='relative'>
             <label htmlFor="email" className={`absolute -top-4 left-5 text-sm text-gray-700 bg-white p-1 z-10 ${errors.email && 'text-red-500'}`}>E-mail <span className='text-red-500 font-bold'>*</span></label>
-            <input {...register("email")} type='email' id='email' placeholder='Digite o seu E-mail' className={`flex w-full h-16 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.email && 'border-red-500 placeholder:text-red-500'}`} />
+            <input {...register("email")} type='email' id='email' placeholder='Digite o seu E-mail.' className={`flex w-full h-16 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.email && 'border-red-500 placeholder:text-red-500'}`} />
 
             {errors.email && <div className='text-center bg-red-100 text-red-500 px-4 py-2 mt-3 rounded'>{errors.email.message}</div>}
         </div>
 
         <div className='relative'>
             <label htmlFor="message" className={`absolute -top-4 left-5 text-sm text-gray-700 bg-white p-1 z-10 ${errors.message && 'text-red-500'}`}>Insira sua mensagem aqui <span className='text-red-500 font-bold'>*</span></label>
-            <textarea {...register("message")} id='message' placeholder='Digite sua mensagem' className={`flex w-full h-44 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.message && 'border-red-500 placeholder:text-red-500'}`} />
+            <textarea {...register("message")} id='message' placeholder='Digite sua mensagem.' className={`flex w-full h-44 rounded-xl border border-gray-700 bg-none p-6 text-sm shadow-sm placeholder:text-gray-700 focus-visible:outline-none ${errors.message && 'border-red-500 placeholder:text-red-500'}`} />
 
             {errors.message && <div className='text-center bg-red-100 text-red-500 px-4 py-2 mt-3 rounded'>{errors.message.message}</div>}
         </div>

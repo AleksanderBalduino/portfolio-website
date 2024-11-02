@@ -7,7 +7,7 @@ interface PageTransitionProps {
 
 function PageTransition({ children }: PageTransitionProps) {
     return (
-        <>
+        <div>
             <motion.div
                 className="fixed top-0 left-0 w-full h-[100vh] bg-zinc-800 origin-bottom z-50"
                 initial={{ scaleY: 1 }}
@@ -25,7 +25,7 @@ function PageTransition({ children }: PageTransitionProps) {
                 exit={{ scaleY: 0 }}
                 transition={{ duration: 1.5, ease: [0.25, 1, 0.25, 1] }}
             />
-        </>
+        </div>
     );
 }
 

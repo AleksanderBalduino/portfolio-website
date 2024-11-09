@@ -45,7 +45,7 @@ export function Projetos() {
                                                         <div className="group flex flex-col space-y-1.5 p-6 relative w-full h-80 items-center justify-center overflow-hidden">
                                                             <div 
                                                                 className="absolute inset-0 bg-no-repeat bg-cover transition-transform duration-300 group-hover:scale-110"
-                                                                style={{ backgroundImage: `url(public/assets/work/${project.image})` }}
+                                                                style={{ backgroundImage: `url(assets/work/${project.image})` }}
                                                             ></div>
 
                                                             <div className="flex gap-x-4 relative z-10">

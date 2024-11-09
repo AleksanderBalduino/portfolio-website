@@ -13,9 +13,9 @@ export default {
             googleFont: ["Quicksand", "sans-serif"],
         },
         backgroundImage: {
-            home: 'url(public/assets/home/home-bg.png)',
-            dots: 'url(public/assets/dots.svg)',
-            illustration_contact: 'url(public/assets/contact/illustration.svg)',
+            home: 'url(/assets/home/home-bg.png)',
+            dots: 'url(/assets/dots.svg)',
+            illustration_contact: 'url(/assets/contact/illustration.svg)',
         },
       },
     },

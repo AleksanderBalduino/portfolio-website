@@ -19,10 +19,10 @@ import { Reveal } from './Animations/Reveal.tsx';
 import './home.css';
 
 /* Imagem */
-import profileImg from '../../src/assets/home/profile.jpg';
+import profileImg from '../../public/assets/home/profile.jpg';
 
 /* Currículo PDF */
-import resumeFile from "../../src/assets/home/Aleksander's_Resume.pdf";
+import resumeFile from "../../public/assets/home/Aleksander's_Resume.pdf";
 
 export function Home() {
     const el = useRef(null);

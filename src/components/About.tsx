@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 import CountUp from 'react-countup';
 
 /* Imagem */
-import profileImg from '../../src/assets/about/profile.jpg';
+import profileImg from '../../public/assets/about/profile.jpg';
 
 /* Icons (Lucide React) */
 import { User, PhoneCall, Mail, Calendar, GraduationCap, Home, Briefcase, MapPin, Cake, BookHeart } from 'lucide-react';

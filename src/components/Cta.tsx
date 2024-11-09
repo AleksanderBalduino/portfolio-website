@@ -10,7 +10,7 @@ export function Cta() {
 
                     <p className='text-base md:text-lg xl:text-xl font-light max-w-3xl text-center mb-10'>Adoraria me conectar com você e poder te conhecer também, então não deixe de entrar em contato comigo, será um prazer bater um papo!</p>
 
-                    <Link to='/contato' className='py-3 md:py-4 px-8 inline-block bg-red-500 hover:bg-white text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
+                    <Link to='/portfolio-website/contato' className='py-3 md:py-4 px-8 inline-block bg-red-500 hover:bg-white text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
                         Bater um papo
                     </Link>
                 </div>

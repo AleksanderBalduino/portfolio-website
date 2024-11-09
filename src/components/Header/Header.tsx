@@ -46,7 +46,7 @@ export function Header() {
                 <div className="flex justify-between items-center p-5 xl:p-0">
                     {/* <Logo /> */}
 
-                    <Link to={'/'}>
+                    <Link to={'/portfolio-website/'}>
                         <span className="font-medium text-xl">Aleksander Balduino</span>
                     </Link>
 
@@ -56,7 +56,7 @@ export function Header() {
 
             <div className="block xl:hidden">
                 <div className="flex justify-between items-center p-6 xl:p-0">
-                    <Link to={'/'}>
+                    <Link to={'/portfolio-website/'}>
                         <span className="font-medium text-lg md:text-xl">Aleksander Balduino</span>
                     </Link>
 

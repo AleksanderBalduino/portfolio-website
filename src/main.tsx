@@ -14,21 +14,18 @@ import { ErrorPage } from './routes/Error/ErrorPage.tsx';
 /* Components */
 import { App } from './App.tsx'
 
-/* Animate CSS */
-// import 'animate.css';
-
 /* CSS */
 import './index.css'
 
 const router = createBrowserRouter([
     { 
-        path: '/',
+        path: '/portfolio-website/',
         element: <App />,
         errorElement: <ErrorPage />,
         children: [
-            { path: '/', element: <HomePage /> },
-            { path: '/projetos', element: <Projetos /> },
-            { path: '/contato', element: <Contato /> },
+            { path: '/portfolio-website/', element: <HomePage /> },
+            { path: '/portfolio-website/projetos', element: <Projetos /> },
+            { path: '/portfolio-website/contato', element: <Contato /> },
         ]
     }
 ])

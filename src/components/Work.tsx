@@ -162,7 +162,7 @@ export function Work() {
                     </div>
 
                     <div className='flex justify-center'>
-                        <Link to='/projetos' className='py-3 md:py-4 px-12 inline-block bg-black hover:bg-white text-base text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
+                        <Link to='/portfolio-website/projetos' className='py-3 md:py-4 px-12 inline-block bg-black hover:bg-white text-base text-white hover:text-red-500 rounded-full font-medium hover:shadow-[inset_0_0_1px_2px_rgba(239,68,68,1)] transition duration-300'>
                             Todos os meus projetos
                         </Link>
                     </div>

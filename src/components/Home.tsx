@@ -70,7 +70,7 @@ export function Home() {
 
                         <Reveal delay={1}>
                             <div className='flex flex-col gap-6 justify-center px-12 md:p-0 md:gap-8 md:flex-row xl:justify-normal'>
-                                <Link to='/contato' className='inline-flex items-center justify-center whitespace-nowrap py-3 md:py-4 px-8 gap-3 bg-black rounded-full hover:bg-white text-white hover:text-red-500 hover:shadow-[inset_0_0_1px_2px_#ef4444] transition duration-100'>
+                                <Link to='/portfolio-website/contato' className='inline-flex items-center justify-center whitespace-nowrap py-3 md:py-4 px-8 gap-3 bg-black rounded-full hover:bg-white text-white hover:text-red-500 hover:shadow-[inset_0_0_1px_2px_#ef4444] transition duration-100'>
                                     <span className='text-sm md:text-base font-medium'>Entre em contato</span>
                                     <Send className='w-4 h-4' />
                                 </Link>

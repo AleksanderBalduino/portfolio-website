@@ -184,7 +184,7 @@ export function About() {
                                                 {languagesData && languagesData.data.map((item, index) => (
                                                     <div key={index} className='grid gap-y-2'>
                                                         <div className='flex justify-center'>
-                                                            <img src={`../src/assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
+                                                            <img src={`assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
                                                         </div>
 
                                                         <p className='text-center text-sm font-semibold'>{item.name}</p>
@@ -198,7 +198,7 @@ export function About() {
                                                 {technologiesData && technologiesData.data.map((item, index) => (
                                                     <div key={index}>
                                                         <div className='flex justify-center'>
-                                                            <img src={`../src/assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
+                                                            <img src={`assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
                                                         </div>
 
                                                         <p className='text-center text-sm font-semibold'>{item.name}</p>
@@ -212,7 +212,7 @@ export function About() {
                                                 {skillsData && skillsData.data.map((item, index) => (
                                                     <div key={index} className='grid gap-y-2'>
                                                         <div className='flex justify-center'>
-                                                            <img src={`../src/assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
+                                                            <img src={`assets/about/skills/${item.img}`} className='size-14 md:size-16 lg:size-[4.5rem] xl:size-20'/>
                                                         </div>
 
                                                         <p className='text-center text-sm font-semibold'>{item.name}</p>

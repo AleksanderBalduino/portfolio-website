@@ -5,13 +5,12 @@ import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 /* Icons (Lucide React) */
-import { /*ChevronDown*/ Send, Download } from 'lucide-react';
+import { Send, Download } from 'lucide-react';
 
 /* Typed */
 import Typed from 'typed.js';
 
 /* Components */
-// import { Socials } from './Socials';
 import { DevImg } from './DevImg.tsx';
 import { Reveal } from './Animations/Reveal.tsx';
 
@@ -81,8 +80,6 @@ export function Home() {
                                 </a>
                             </div>
                         </Reveal>
-
-                        {/* <Socials /> */}
                     </div>
 
                     <Reveal delay={1.5}>
@@ -91,12 +88,6 @@ export function Home() {
                         </div>
                     </Reveal>
                 </div>
-
-                {/* <Reveal delay={2} translateY={false}>
-                    <div className='hidden md:flex absolute left-1/2 bottom-20 xl:bottom-8 animate-bounce'>
-                        <a href="#aboutme"><ChevronDown size={30} className='hover:text-red-500 hover:cursor-pointer transition-all' /></a>
-                    </div>
-                </Reveal> */}
             </div>
         </section>
     );

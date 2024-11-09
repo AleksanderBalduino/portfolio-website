@@ -1,7 +1,7 @@
 [
     {
         "image": "portal_noticia_mba_fullstack.png",
-        "category": "MBA Full-stack",
+        "category": "HTML + CSS",
         "title": "Portal de notícias",
         "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a homepage de um portal de notícias sobre tecnologia para ser visualizado em um desktop.",
         "link": "https://aleksanderbalduino.github.io/projeto-portal-de-noticias-mba-fullstack/",
@@ -9,7 +9,7 @@
     },
     {
         "image": "formulario_matricula_mba_fullstack.png",
-        "category": "MBA Full-stack",
+        "category": "HTML + CSS",
         "title": "Formulário de matrícula",
         "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido um formulário desktop para uma escola de educação infantil.",
         "link": "https://aleksanderbalduino.github.io/projeto-formulario-de-matricula-mba-fullstack/",
@@ -17,7 +17,7 @@
     },
     {
         "image": "zingen_karaoke_mba_fullstack.png",
-        "category": "MBA Full-stack",
+        "category": "HTML + CSS",
         "title": "Zingen Karaokê",
         "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a Landing Page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen.",
         "link": "https://aleksanderbalduino.github.io/projeto-zingen-karaoke-mba-fullstack/",
@@ -25,7 +25,7 @@
     },
     {
         "image": "snitap_patins_mba_fullstack.png",
-        "category": "MBA Full-stack",
+        "category": "HTML + CSS",
         "title": "Snitap Patins",
         "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido a Landing Page responsiva de loja de patins com muitas animações e transições.",
         "link": "https://aleksanderbalduino.github.io/projeto-snitap-patins-mba-fullstack/",
@@ -33,7 +33,7 @@
     },
     {
         "image": "convert_mba_fullstack.png",
-        "category": "MBA Full-stack",
+        "category": "JavaScript",
         "title": "Conversor de moedas",
         "description": "Projeto realizado em aula na formação Full-Stack da Rocketseat, sendo desenvolvido uma aplicação Web de conversão de moedas para real.",
         "link": "https://aleksanderbalduino.github.io/projeto-convert-mba-fullstack/",

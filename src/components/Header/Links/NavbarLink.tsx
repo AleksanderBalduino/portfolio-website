@@ -23,7 +23,11 @@ export function NavbarLink({path, title}: NavBarLinkProps) {
 
     return (
         <li>
-            <NavLink to={path} className={({isActive}) => `${isActive && 'text-red-500'} text-lg capitalize relative hover:text-red-500 transition-all`}>
+            <NavLink 
+                to={path}
+                end={path === "/portfolio-website/"}
+                className={({isActive}) => `${isActive && 'text-red-500'} text-lg capitalize relative hover:text-red-500 transition-all`}
+            >
                 {
                     ({isActive}) => (
                         <>
